@@ -1,0 +1,21 @@
+{
+  "name": "eemun-backend",
+  "version": "1.0.0",
+  "description": "On se kova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eemuman/Eemun-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eemuman/Eemun-Backend/issues"
+  },
+  "homepage": "https://github.com/eemuman/Eemun-Backend#readme"
+}
