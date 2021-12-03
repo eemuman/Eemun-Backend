@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 var cors = require("cors");
 app.use(cors());
+app.use(express.json());
+const mysql = require("mysql");
 
 let config = {
   host: process.env.host,
@@ -10,7 +12,6 @@ let config = {
   database: process.env.database,
   connectionLimit: 10,
 };
-
 const port = process.env.PORT || 8080;
 
 var pool = mysql.createPool(config);
