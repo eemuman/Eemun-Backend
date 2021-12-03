@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/eemuman/Eemun-Backend/issues"
   },
-  "homepage": "https://github.com/eemuman/Eemun-Backend#readme"
+  "homepage": "https://github.com/eemuman/Eemun-Backend#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
 }
